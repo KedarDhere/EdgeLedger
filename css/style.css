@@ -208,3 +208,44 @@ nav ul{
 .footer .social > * {
     margin-right: 30px;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .navbar a{
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, 
+    .flex-grid .column {
+        flex: 100%;
+        min-width: 100%;
+    }
+
+    .team img {
+        width: 70%;
+    }
+    
+    .team h4 {
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+
+    .team .flex-items p {
+        margin: 0;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+}
